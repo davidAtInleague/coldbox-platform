@@ -564,7 +564,7 @@ component accessors="true" {
 				string      = reReplaceNoCase( string, regex, "\1" );
 				commaposarr = reFindNoCase( ",", string, 1, true );
 				if ( commaposarr.pos[ 1 ] != 0 ) {
-					commapos = "i" + commaposarr.pos[ arrayLen( commaposarr.pos ) ];
+					commapos = i + commaposarr.pos[ arrayLen( commaposarr.pos ) ];
 				}
 			}
 
